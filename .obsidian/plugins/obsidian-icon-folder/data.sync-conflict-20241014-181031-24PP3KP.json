@@ -1,0 +1,52 @@
+{
+  "settings": {
+    "migrated": 4,
+    "iconPacksPath": ".obsidian/icons",
+    "fontSize": 16,
+    "emojiStyle": "none",
+    "iconColor": null,
+    "recentlyUsedIcons": [
+      "Fas3",
+      "TiFunction",
+      "FabJava",
+      "LiPercent",
+      "LiImages"
+    ],
+    "recentlyUsedIconsSize": 5,
+    "rules": [],
+    "extraMargin": {
+      "top": 0,
+      "right": 4,
+      "bottom": 0,
+      "left": 0
+    },
+    "iconInTabsEnabled": false,
+    "iconInTitleEnabled": false,
+    "iconInFrontmatterEnabled": false,
+    "iconsBackgroundCheckEnabled": false,
+    "iconsInNotesEnabled": true,
+    "iconsInLinksEnabled": true,
+    "iconIdentifier": ":"
+  },
+  "Calcolatori/Aritmetica dei calcolatori.md": "LiBinary",
+  "Calcolatori/Algebra di Boole.md": "LiBinary",
+  "Calcolatori/Assembly.md": "SiRiscv",
+  "Calcolatori/Codifica numeri interi.md": "LiBinary",
+  "Calcolatori/Componenti.md": "LiCircuitBoard",
+  "Calcolatori/Procedure.md": "SiRiscv",
+  "Calcolatori/Reti Logiche.md": "TiLogicOr",
+  "Calcolatori/RISC V.md": "SiRiscv",
+  "Calcolatori": "LiBinary",
+  "FMI": "TiMathXDivideY",
+  "Geometria e Algebra lineare": "SiMatrix",
+  "probabilità e statistica": "FasPercent",
+  "Programmazione 2": "FabJava",
+  "Programmazione funzionale": "TiFunction",
+  "Primo Semestre.md": "Fas1",
+  "Secondo Semestre.md": "Fas2",
+  "images": "LiImages",
+  "probabilitàStatistica": "LiPercent",
+  "Programmazione2": "FabJava",
+  "Funzionale": "TiFunction",
+  "Terzo Semestre.md": "Fas3"
+}

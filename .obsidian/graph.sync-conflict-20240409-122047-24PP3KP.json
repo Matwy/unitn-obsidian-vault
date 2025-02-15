@@ -1,0 +1,72 @@
+{
+  "collapse-filter": true,
+  "search": "",
+  "showTags": true,
+  "showAttachments": true,
+  "hideUnresolved": false,
+  "showOrphans": true,
+  "collapse-color-groups": true,
+  "colorGroups": [
+    {
+      "query": "path:Calcolatori  ",
+      "color": {
+        "a": 1,
+        "rgb": 16756224
+      }
+    },
+    {
+      "query": "path:\"probabilità e statistica\"  ",
+      "color": {
+        "a": 1,
+        "rgb": 11468544
+      }
+    },
+    {
+      "query": "path:FMI  ",
+      "color": {
+        "a": 1,
+        "rgb": 16711680
+      }
+    },
+    {
+      "query": "path:\"Programmazione funzionale\"  ",
+      "color": {
+        "a": 1,
+        "rgb": 4607
+      }
+    },
+    {
+      "query": "path:\"Programmazione 2\"  ",
+      "color": {
+        "a": 1,
+        "rgb": 6084269
+      }
+    },
+    {
+      "query": "file:Secondo Semestre",
+      "color": {
+        "a": 1,
+        "rgb": 43775
+      }
+    },
+    {
+      "query": "path:\"Geometria e Algebra lineare\"  ",
+      "color": {
+        "a": 1,
+        "rgb": 6053078
+      }
+    }
+  ],
+  "collapse-display": true,
+  "showArrow": false,
+  "textFadeMultiplier": 0,
+  "nodeSizeMultiplier": 1.0953125,
+  "lineSizeMultiplier": 2.090625,
+  "collapse-forces": false,
+  "centerStrength": 0.588541666666667,
+  "repelStrength": 12.1875,
+  "linkStrength": 0.708333333333333,
+  "linkDistance": 77,
+  "scale": 0.6110570836986337,
+  "close": false
+}

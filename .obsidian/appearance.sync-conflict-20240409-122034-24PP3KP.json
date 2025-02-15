@@ -1,0 +1,11 @@
+{
+  "accentColor": "",
+  "cssTheme": "Things",
+  "baseFontSize": 17,
+  "enabledCssSnippets": [
+    "big-latex",
+    "headers",
+    "bullet-points",
+    "image-center"
+  ]
+}

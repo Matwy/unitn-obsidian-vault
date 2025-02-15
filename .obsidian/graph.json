@@ -1,0 +1,107 @@
+{
+  "collapse-filter": true,
+  "search": "",
+  "showTags": true,
+  "showAttachments": true,
+  "hideUnresolved": false,
+  "showOrphans": true,
+  "collapse-color-groups": true,
+  "colorGroups": [
+    {
+      "query": "path:Calcolatori  ",
+      "color": {
+        "a": 1,
+        "rgb": 16756224
+      }
+    },
+    {
+      "query": "path:\"probabilitàStatistica\"  ",
+      "color": {
+        "a": 1,
+        "rgb": 11468544
+      }
+    },
+    {
+      "query": "path:FMI  ",
+      "color": {
+        "a": 1,
+        "rgb": 16711680
+      }
+    },
+    {
+      "query": "path:\"Funzionale\"  ",
+      "color": {
+        "a": 1,
+        "rgb": 4607
+      }
+    },
+    {
+      "query": "path:\"Programmazione2\"  ",
+      "color": {
+        "a": 1,
+        "rgb": 6084269
+      }
+    },
+    {
+      "query": "file:Secondo Semestre",
+      "color": {
+        "a": 1,
+        "rgb": 43775
+      }
+    },
+    {
+      "query": "path:\"Geometria e Algebra lineare\"  ",
+      "color": {
+        "a": 1,
+        "rgb": 6053078
+      }
+    },
+    {
+      "query": "file:\"Terzo Semestre\"",
+      "color": {
+        "a": 1,
+        "rgb": 11361494
+      }
+    },
+    {
+      "query": "path:\"Algoritmi e strutture dati\"  ",
+      "color": {
+        "a": 1,
+        "rgb": 40447
+      }
+    },
+    {
+      "query": "path:\"Basi di dati\"  ",
+      "color": {
+        "a": 1,
+        "rgb": 16731392
+      }
+    },
+    {
+      "query": "path:Reti  ",
+      "color": {
+        "a": 1,
+        "rgb": 2371250
+      }
+    },
+    {
+      "query": "path:Joey  ",
+      "color": {
+        "a": 1,
+        "rgb": 22282
+      }
+    }
+  ],
+  "collapse-display": true,
+  "showArrow": false,
+  "textFadeMultiplier": -0.4,
+  "nodeSizeMultiplier": 1.0953125,
+  "lineSizeMultiplier": 0.957090909090909,
+  "collapse-forces": false,
+  "centerStrength": 0.802077922077922,
+  "repelStrength": 15.9450834879406,
+  "linkStrength": 1,
+  "linkDistance": 184,
+  "scale": 0.0831742783592768,
+  "close": true
+}

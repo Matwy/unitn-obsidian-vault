@@ -1,0 +1,48 @@
+{
+  "settings": {
+    "migrated": 4,
+    "iconPacksPath": ".obsidian/icons",
+    "fontSize": 20,
+    "emojiStyle": "none",
+    "iconColor": "#16d0cd",
+    "recentlyUsedIcons": [
+      "Fas2",
+      "Fas1",
+      "CoCalendar",
+      "TiFunction",
+      "FabJava"
+    ],
+    "recentlyUsedIconsSize": 10,
+    "rules": [],
+    "extraMargin": {
+      "top": 0,
+      "right": 4,
+      "bottom": 0,
+      "left": 0
+    },
+    "iconInTabsEnabled": false,
+    "iconInTitleEnabled": false,
+    "iconInFrontmatterEnabled": false,
+    "iconsBackgroundCheckEnabled": false,
+    "iconsInNotesEnabled": true,
+    "iconsInLinksEnabled": true,
+    "iconIdentifier": ":"
+  },
+  "Calcolatori/Aritmetica dei calcolatori.md": "LiBinary",
+  "Calcolatori/Algebra di Boole.md": "LiBinary",
+  "Calcolatori/Assembly.md": "SiRiscv",
+  "Calcolatori/Codifica numeri interi.md": "LiBinary",
+  "Calcolatori/Componenti.md": "LiCircuitBoard",
+  "Calcolatori/Procedure.md": "SiRiscv",
+  "Calcolatori/Reti Logiche.md": "TiLogicOr",
+  "Calcolatori/RISC V.md": "SiRiscv",
+  "Calcolatori": "LiBinary",
+  "FMI": "TiMathXDivideY",
+  "Geometria e Algebra lineare": "SiMatrix",
+  "DISI calendario accademico_2023-24.pdf": "CoCalendar",
+  "Primo Semestre.md": "Fas1",
+  "Secondo Semestre.md": "Fas2",
+  "probabilitàStatistica": "FasPercent",
+  "Funzionale": "TiFunction",
+  "Programmazione2": "FabJava"
+}

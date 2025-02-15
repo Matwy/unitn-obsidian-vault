@@ -1,0 +1,29 @@
+{
+	"nodes":[
+		{"id":"f9373cc27cb7fef1","type":"file","file":"Primo Anno/Joey/Giovanni.md","x":-240,"y":205,"width":363,"height":293},
+		{"id":"e394ec788039c846","type":"file","file":"Primo Anno/Joey/Joey.md","x":53,"y":-180,"width":267,"height":180},
+		{"id":"f7eaf0c4fce5b1f7","type":"file","file":"Primo Anno/Joey/semola.md","x":721,"y":930,"width":399,"height":150},
+		{"id":"d943be490c1644c8","type":"file","file":"Primo Anno/Joey/fabrizio.md","x":709,"y":1200,"width":411,"height":160},
+		{"id":"c929d8b8bd6effd1","type":"file","file":"Primo Anno/Joey/Giovanime.md","x":-1029,"y":0,"width":400,"height":200},
+		{"id":"fea997ede2d8638d","type":"file","file":"Primo Anno/Joey/Marchillo.md","x":-490,"y":1206,"width":340,"height":250,"color":"4"},
+		{"id":"20b5aa4de2326336","type":"file","file":"Primo Anno/Joey/ejacopo.md","x":320,"y":205,"width":360,"height":293},
+		{"id":"77f23bc0c3bd7e9d","type":"file","file":"Primo Anno/Joey/silvio.md","x":53,"y":641,"width":387,"height":194,"color":"#000000"},
+		{"id":"a9010c6a4355584d","type":"file","file":"Primo Anno/Joey/eiaculo.md","x":580,"y":641,"width":440,"height":194,"color":"#ffffff"},
+		{"id":"9dff9afc6fe120d9","type":"file","file":"Primo Anno/Joey/Marcello.md","x":-564,"y":715,"width":410,"height":240},
+		{"id":"00156ce1d6b179d6","type":"file","file":"Primo Anno/Joey/Marcellaio.md","x":-1429,"y":930,"width":400,"height":400,"color":"#ac4320"},
+		{"id":"3931cca158638413","type":"file","file":"Primo Anno/Joey/Marcevil.md","x":-963,"y":1206,"width":399,"height":190,"color":"#c53030"}
+	],
+	"edges":[
+		{"id":"570c8a840dad90b4","fromNode":"20b5aa4de2326336","fromSide":"bottom","toNode":"77f23bc0c3bd7e9d","toSide":"top"},
+		{"id":"094845c3805d6684","fromNode":"20b5aa4de2326336","fromSide":"bottom","toNode":"a9010c6a4355584d","toSide":"top"},
+		{"id":"cd08be596698f336","fromNode":"a9010c6a4355584d","fromSide":"bottom","toNode":"f7eaf0c4fce5b1f7","toSide":"top"},
+		{"id":"09e5e5cac5c14da7","fromNode":"f7eaf0c4fce5b1f7","fromSide":"bottom","toNode":"d943be490c1644c8","toSide":"top"},
+		{"id":"bc99c6f2c568e614","fromNode":"f9373cc27cb7fef1","fromSide":"bottom","toNode":"9dff9afc6fe120d9","toSide":"top"},
+		{"id":"87cda36d8f47e87e","fromNode":"9dff9afc6fe120d9","fromSide":"bottom","toNode":"3931cca158638413","toSide":"top"},
+		{"id":"b8747c44cbd32214","fromNode":"e394ec788039c846","fromSide":"bottom","toNode":"f9373cc27cb7fef1","toSide":"top"},
+		{"id":"6bf959d2605f48dc","fromNode":"e394ec788039c846","fromSide":"bottom","toNode":"20b5aa4de2326336","toSide":"top"},
+		{"id":"a70518c21c70dad2","fromNode":"9dff9afc6fe120d9","fromSide":"bottom","toNode":"fea997ede2d8638d","toSide":"top"},
+		{"id":"c2ce6785a73b54bf","fromNode":"f9373cc27cb7fef1","fromSide":"left","toNode":"c929d8b8bd6effd1","toSide":"right"},
+		{"id":"f517dd8e9b8c99b0","fromNode":"9dff9afc6fe120d9","fromSide":"left","toNode":"00156ce1d6b179d6","toSide":"top"}
+	]
+}

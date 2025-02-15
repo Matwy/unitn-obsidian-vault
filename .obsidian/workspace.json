@@ -1,0 +1,317 @@
+{
+  "main": {
+    "id": "df38b19de8abef2f",
+    "type": "split",
+    "children": [
+      {
+        "id": "bb4eb7655016ccf4",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "e973e6bfcc8cf7d3",
+            "type": "leaf",
+            "state": {
+              "type": "pdf",
+              "state": {
+                "file": "computerNetworkSecurity/files/3-Crypto_Intro-2p.pdf"
+              },
+              "icon": "lucide-file-text",
+              "title": "3-Crypto_Intro-2p"
+            }
+          },
+          {
+            "id": "1e2eaf74d25ce835",
+            "type": "leaf",
+            "state": {
+              "type": "pdf-annotator",
+              "state": {
+                "file": "computerNetworkSecurity/annotator.md"
+              },
+              "icon": "lucide-file",
+              "title": "annotator"
+            }
+          },
+          {
+            "id": "e5c65ad5ebc48b00",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "computerNetworkSecurity/01 basic notions.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "01 basic notions"
+            }
+          }
+        ],
+        "currentTab": 1
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "60a45630d9fe8140",
+    "type": "split",
+    "children": [
+      {
+        "id": "33e1cc98ff3b0830",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "94f57f1a7dd72b8a",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
+          },
+          {
+            "id": "12de62b5d7c78964",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
+            }
+          },
+          {
+            "id": "d614d6adda27bf87",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 246,
+    "collapsed": true
+  },
+  "right": {
+    "id": "343aed3ed67e75fe",
+    "type": "split",
+    "children": [
+      {
+        "id": "5b6acb33249dd028",
+        "type": "tabs",
+        "dimension": 58.83424408014573,
+        "children": [
+          {
+            "id": "97eba380b4830006",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "6ddcea47d6169af4",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Algoritmi e strutture dati/Grafi.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks for Grafi"
+            }
+          },
+          {
+            "id": "77d6a03e3eba1cf6",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Algoritmi e strutture dati/Grafi.md"
+              },
+              "icon": "lucide-list",
+              "title": "Outline of Grafi"
+            }
+          },
+          {
+            "id": "c3345420286f6eb8",
+            "type": "leaf",
+            "state": {
+              "type": "chronology-calendar-view",
+              "state": {},
+              "icon": "clock",
+              "title": "Chronology"
+            }
+          },
+          {
+            "id": "b6c21c3b1e103f41",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "Algoritmi e strutture dati/Grafi.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links from Grafi"
+            }
+          },
+          {
+            "id": "76eea5ee731af447",
+            "type": "leaf",
+            "state": {
+              "type": "chronology-calendar-view",
+              "state": {},
+              "icon": "clock",
+              "title": "Chronology"
+            }
+          },
+          {
+            "id": "363a33d90aa719ff",
+            "type": "leaf",
+            "state": {
+              "type": "chronology-calendar-view",
+              "state": {},
+              "icon": "clock",
+              "title": "Chronology"
+            }
+          },
+          {
+            "id": "7b444ce3302daec2",
+            "type": "leaf",
+            "state": {
+              "type": "chronology-calendar-view",
+              "state": {},
+              "icon": "clock",
+              "title": "Chronology"
+            }
+          },
+          {
+            "id": "fd05ae335bbd2864",
+            "type": "leaf",
+            "state": {
+              "type": "chronology-calendar-view",
+              "state": {},
+              "icon": "clock",
+              "title": "Chronology"
+            }
+          }
+        ],
+        "currentTab": 3
+      },
+      {
+        "id": "8c5d0feee6612537",
+        "type": "tabs",
+        "dimension": 41.16575591985427,
+        "children": [
+          {
+            "id": "4fa20398feab46e3",
+            "type": "leaf",
+            "state": {
+              "type": "graph",
+              "state": {},
+              "icon": "lucide-git-fork",
+              "title": "Graph view"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 370,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "canvas:Create new canvas": false,
+      "graph:Open graph view": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "daily-notes:Open today's daily note": false,
+      "syncthing-integration:Open Syncthing conflict manager modal": false,
+      "templater-obsidian:Templater": false,
+      "obsidian-projects:Open projects": false,
+      "chronology:Open Chronology": false,
+      "table-editor-obsidian:Advanced Tables Toolbar": false,
+      "omnisearch:Omnisearch": false
+    }
+  },
+  "active": "1e2eaf74d25ce835",
+  "lastOpenFiles": [
+    "computerNetworkSecurity/files/3-Crypto_Intro-2p.pdf",
+    "computerNetworkSecurity/files/Appunti-Facchini-Ranise-2024-25.pdf",
+    "annotator.md",
+    "computerNetworkSecurity/annotator.md",
+    "computerNetworkSecurity/files/2-AuthN-I-2p.pdf",
+    "computerNetworkSecurity/01 basic notions.md",
+    "computerNetworkSecurity/2 Auth.md",
+    "images/Pasted image 20250125170059.png",
+    "images/Pasted image 20250215110052.png",
+    "images/Pasted image 20250215105025.png",
+    "computerNetworkSecurity/files/1-BasicNotions-2p.pdf",
+    "computerNetworkSecurity/computer-network-security.md",
+    "computerNetworkSecurity/files",
+    "computerNetworkSecurity",
+    "talos.md",
+    "Algoritmi e strutture dati/Esercizio 1 esame.md",
+    "Algoritmi e strutture dati/files/05-alberi.pdf",
+    "Algoritmi e strutture dati/files/06-abr.pdf",
+    "Algoritmi e strutture dati/Hashing.md",
+    "Primo Anno/Funzionale/2 Names and Environments.md",
+    "Primo Anno/Funzionale.zip",
+    "Primo Anno/Funzionale/Tipi base SML.md",
+    "Primo Anno/Funzionale/Programmazione funzionale.md",
+    "Primo Anno/Funzionale/Liste.md",
+    "Primo Anno/Funzionale/Lambda calculus.md",
+    "Primo Anno/Funzionale/Higher Order Function.md",
+    "Primo Anno/Funzionale/Funzioni.md",
+    "Primo Anno/Funzionale/Flusso.md",
+    "Primo Anno/Funzionale/Conversioni.md",
+    "Primo Anno/Funzionale/Caratteristiche linguaggi.md",
+    "Primo Anno/Funzionale/3 Memory management.md",
+    "Primo Anno/Funzionale/5 Data Structure.md",
+    "Primo Anno/Funzionale/6 Logic Programming.md",
+    "Primo Anno/Funzionale/4 Control Structures and abstraction.md",
+    "Algoritmi e strutture dati/files/02-funzioni.pdf",
+    "Reti/cap 6/accesso multiplo al canale.md",
+    "Reti/cap 4-5/Autonomous System.md",
+    "Reti/Reti.md",
+    "images/Pasted image 20250108094819.png",
+    "images/Pasted image 20250108085956.png",
+    "images/Pasted image 20250108091039.png",
+    "images/Pasted image 20250108090346.png",
+    "images/Pasted image 20240227100659.png",
+    "images/Pasted image 20240229092531.png",
+    "images/Pasted image 20240324105303.png",
+    "Primo Anno/Joey/joey.canvas",
+    "Untitled.canvas"
+  ]
+}

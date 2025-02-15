@@ -1,0 +1,12 @@
+{
+  "accentColor": "",
+  "cssTheme": "AnuPpuccin",
+  "baseFontSize": 17,
+  "enabledCssSnippets": [
+    "big-latex",
+    "headers",
+    "bullet-points",
+    "image-center"
+  ],
+  "theme": "moonstone"
+}

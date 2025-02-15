@@ -1,0 +1,111 @@
+{
+  "version": 2,
+  "projects": [
+    {
+      "fieldConfig": {},
+      "defaultName": "",
+      "templates": [],
+      "excludedNotes": [],
+      "isDefault": true,
+      "dataSource": {
+        "kind": "folder",
+        "config": {
+          "path": "/",
+          "recursive": true
+        }
+      },
+      "newNotesFolder": "",
+      "views": [
+        {
+          "config": {
+            "orderFields": [
+              "name",
+              "path",
+              "date",
+              "Materia",
+              "tags"
+            ]
+          },
+          "filter": {
+            "conditions": []
+          },
+          "colors": {
+            "conditions": []
+          },
+          "sort": {
+            "criteria": []
+          },
+          "id": "60a9c3e8-c3ae-4aea-a558-bbdf6cdb49c2",
+          "name": "Table",
+          "type": "table"
+        },
+        {
+          "config": {
+            "interval": "month"
+          },
+          "filter": {
+            "conditions": []
+          },
+          "colors": {
+            "conditions": []
+          },
+          "sort": {
+            "criteria": []
+          },
+          "id": "a834598c-e690-46df-9ad7-e5c0c761819b",
+          "name": "Calendarview",
+          "type": "calendar"
+        },
+        {
+          "config": {
+            "columns": {
+              "[[Programmazione funzionale]]": {
+                "weight": 0
+              },
+              "[[Probabilità e Statistica]]": {
+                "weight": 1
+              },
+              "[[FMI]]": {
+                "weight": 2
+              },
+              "[[Calcolatori]]": {
+                "weight": 3
+              },
+              "[[": {
+                "weight": 4
+              },
+              "No status": {
+                "weight": 5
+              }
+            },
+            "groupByField": "Materia",
+            "includeFields": []
+          },
+          "filter": {
+            "conditions": []
+          },
+          "colors": {
+            "conditions": []
+          },
+          "sort": {
+            "criteria": []
+          },
+          "id": "58d7015c-8dd3-47c4-b770-15067634a65a",
+          "name": "appuntazzi",
+          "type": "board"
+        }
+      ],
+      "id": "d723f28c-7ee1-433c-b9e6-9d68454fbf64",
+      "name": "unitn"
+    }
+  ],
+  "archives": [],
+  "preferences": {
+    "projectSizeLimit": 1000,
+    "frontmatter": {
+      "quoteStrings": "PLAIN"
+    },
+    "commands": [],
+    "linkBehavior": "open-editor"
+  }
+}

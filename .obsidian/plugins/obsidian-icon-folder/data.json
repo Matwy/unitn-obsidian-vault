@@ -1,0 +1,52 @@
+{
+  "settings": {
+    "migrated": 4,
+    "iconPacksPath": ".obsidian/icons",
+    "fontSize": 16,
+    "emojiStyle": "none",
+    "iconColor": null,
+    "recentlyUsedIcons": [
+      "Fas3",
+      "TiFunction",
+      "FabJava",
+      "LiPercent",
+      "LiImages"
+    ],
+    "recentlyUsedIconsSize": 5,
+    "rules": [],
+    "extraMargin": {
+      "top": 0,
+      "right": 4,
+      "bottom": 0,
+      "left": 0
+    },
+    "iconInTabsEnabled": false,
+    "iconInTitleEnabled": false,
+    "iconInFrontmatterEnabled": false,
+    "iconsBackgroundCheckEnabled": false,
+    "iconsInNotesEnabled": true,
+    "iconsInLinksEnabled": true,
+    "iconIdentifier": ":"
+  },
+  "probabilità e statistica": "FasPercent",
+  "Programmazione 2": "FabJava",
+  "Programmazione funzionale": "TiFunction",
+  "images": "LiImages",
+  "Terzo Semestre.md": "Fas3",
+  "Primo Anno/probabilitàStatistica": "LiPercent",
+  "Primo Anno/Geometria e Algebra lineare": "SiMatrix",
+  "Primo Anno/Funzionale": "TiFunction",
+  "Primo Anno/FMI": "TiMathXDivideY",
+  "Primo Anno/Calcolatori": "LiBinary",
+  "Primo Anno/Calcolatori/Algebra di Boole.md": "LiBinary",
+  "Primo Anno/Calcolatori/Assembly.md": "SiRiscv",
+  "Primo Anno/Calcolatori/Codifica numeri interi.md": "LiBinary",
+  "Primo Anno/Calcolatori/Aritmetica dei calcolatori.md": "LiBinary",
+  "Primo Anno/Calcolatori/Componenti.md": "LiCircuitBoard",
+  "Primo Anno/Calcolatori/Procedure.md": "SiRiscv",
+  "Primo Anno/Calcolatori/Reti Logiche.md": "TiLogicOr",
+  "Primo Anno/Calcolatori/RISC V.md": "SiRiscv",
+  "Primo Anno/Programmazione2": "FabJava",
+  "Primo Anno/Primo Semestre.md": "Fas1",
+  "Primo Anno/Secondo Semestre.md": "Fas2"
+}
