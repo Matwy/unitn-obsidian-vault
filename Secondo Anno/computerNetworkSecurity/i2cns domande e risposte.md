@@ -1,0 +1,179 @@
+---
+date: 2025/02/17
+tags: 
+Materia: "[[computer-network-security]]"
+---
+# i2cns domande e risposte
+
+#### MFA
+- MFA autenticazione a più fattori
+- l'autenticazione può usare più fattori, un fattore è qualcosa che l'utente sa il secondo qualcosa che l'utente ha il terzo è qualcosa che l'utente è.
+- NIST definisce 3 livelli di autenticazione
+- il primo livello è una autenticazione a singolo fattore, esempio username e password
+- secondo livello è a due fattori con criptografia
+- il terzo livello, il più sicuro, l'utente deve dimostrare di essere a conoscenza della chiave la quale non è possibile esportarla
+
+## Crittografia
+- Un cryptosystem è composto da 
+	- E: Encyrpt Algorithm (Algoritmo per criptare)
+	- D: Decrypt Algorithm (Algoritmo per decriptare)
+	- M: Message (Messaggio in chiaro)
+	- K: Key (Chiave)
+	- C: Cripted message (messaggio criptato)
+- in particolare
+	- E(M, K) = C
+	- D(C, K) = M
+---
+
+- Il concetto di key management riguarda la creazione il salvataggio e la distruzione delle chiavi usate per criptare e decriptare. Questo è cruciale perchè le chiavi ci permettono di avere Confidenzialità autenticità e integrità sui dati. Seguendo il principio di Kerckhoffs la sicurezza di un sistema di criptazione non deriva dalla segretezza degli algoritmi usati per criptare e decriptare i messaggi, ma dalla segretezza delle chiavi. Le chiavi devono essere salvate in modo sicuro e condivise in modo sicuro, per ottenere questo si usa la criptografia asimmetrica.
+
+---
+- I cifrari di sostituzione e di trasposizione sono un modo per cifrare un messaggio
+	- In un cifrario di sostituzione ogni lettera è sostituita con un altro carattere
+	- un esempio è il cifrario di cesare, è il cifrario di sostituzione più semplice e meno sicuro consiste nel sostituire ogni lettera dell'alfabeto con un'altra lettera.
+	- I cifrari di trasposizione invece criptano un messaggio permutando ogni lettera del messaggio
+	- esempio Cifrario a colonne consiste nel disporre il messaggio in colonne di lunghezza fissa e usando una chiave vengono trasposte
+---
+- Una tecnica criptografica è computazionalmente sicura se il tempo di romperla è più del tempo in cui è utile l'informazione oppure il costo di romperla è di più del valore dell'informazione
+---
+- la criptografia simmetrica è un tipo di criptografia dove la stessa chiave viene usata sia per criptare sia per decriptare un messaggio. 
+---
+- DES è obsoleto perchè usa l'algoritmo di Feistel con 56 bit key. Questo porta a una bassa entropia ed è quindi facile calcolare la chiave con un attacco brute force.
+- AES è ancora usato perchè usa un sistema criptografico più forte chiamato Rijndael con più di 128 bit utilizzati per la chiave. Questo porta ad una entropia più alta.
+---
+- Il concetto di chiave asimmetrica riguarda un sistema crittografico dove:
+	- ogni utente ha due chiavi una pubblica e una privata
+	- è basato sulle funzioni a una direzione
+		- le moltiplicazioni sono facili da fare le fattorizzazioni sono più difficile
+		- l'elevazione a potenza è più facile da fare i logaritmi sono più difficili
+	- con questo per criptare
+		- chiave pubblica per criptare
+		- chiave privata per decriptare
+		- questo porta a confidenzialità e integrità. Il mittente cripta con la chiave pubblica e solo il destinatario può decifrare perchè solo lui ha la chiave privata
+	- per certificati e validazioni 
+		- chiave pubblica per decriptare 
+		- chiave privata per criptare
+		- Questo porta a integrità e autenticità e non ripudio. Ad esempio un certificato viene firmato con la chiave privata e può essere verificata la validità da tutti tramite la chiave pubblica.
+---
+- RSA Rivest Shamir Adleman 
+	- usa la moltiplicazione per criptare e la fattorizzazione per decriptare
+	- usa i numeri primi
+	- usa chiave privata e pubblica 
+	- il suo flow è 
+		- Se A vuole mandare un messaggio a B
+		- B manda la sua chiave pubblica ad A
+		- A cripta il messaggio con la chiave pubblica e lo manda a B
+		- B decripta il messaggio con la sua chiave privata
+---
+- DH Diffie Hellman è un metodo per scambiare chiavi private
+	- Alice e Bob devono scambiarsi una chiave privata
+	- Alice sceglie un numero primo e una base questi sono pubblici
+	- poi Alice sceglie un numero segreto e calcola A e lo invia a bob
+	- poi Bob sceglie un numero segreto e calcola B e lo invia a bob
+	- poi tramite base generatore e i loro numeri segreti grazie ad una proprietà matematica riescono ad ottenere entrambi una chiave K
+	- la chiave K può poi venir utilizzata per scambiarsi messaggi con un algoritmo simmetrico come AES
+- Con un attacco MITM l'hacker può inserirsi in mezzo a Bob e Alice e fingersi uno dei due (calcolando le sue chiavi) e consentendo ai due di comunicare. In questo modo riesce a leggere i messaggi criptati
+- Per evitare un attacco MITM bisogna usare l'autenticazione con certificati o firme digitali
+---
+- Le vulnerabilità sono delle debolezze all'interno di un sistema che possono essere usate da una minaccia. Degli esempi di debolezze sono bug, backdoors nei programmi
+- Minacce Le minacce sono delle attività che possono essere intenzionali o non intenzionali ma possono danneggiare il sistema, di solito le minacce sfruttano le vulnerabilità. Degli esempi sono virus hackers.
+- Un Rischio è definito come Minaccia + Vulnerabilità = Rischio. Il rischio viene quantificato come probabilità che accada moltiplicata per il danno che causerebbe.
+---
+- Un certificato digitale è un certificato che associa un soggetto ad una chiave pubblica. Questo certificato viene validato da una CA Certificate Authority. Questo certificato ci permette quindi di verificare se un soggetto è chi dice effettivamente di essere. I suoi componenti principali sono
+	- soggetto
+	- chiave pubblica del soggetto
+	- CA
+	- chiave pubblica della CA
+	- periodo di validità
+- Una Root CA è una Certification Authority che si firma da sola. Questo permette di non avere una catena di fiducia infinita.
+- I certificati vengono controllati da una Validation Authority VA e questa controlla il periodo di validità e risale alla catena di fiducia controllando tutti i certificati delle CA intermedie fino alla Root CA. Inoltre controlla che il certificato non sia nella CRL Certificate Revocation List, la lista dei certificati revocati.
+- Il TLS handshake permette di instaurare una connessione sicura e cifrata tra dispositivi
+	- Client Hello, il client manda al server le versioni del protocollo disponibili e la lista delle cipher suites disponibili.
+	- Server Hello il server manda al client la versione e la cipher suites scelta
+	- Con diffie Hellman i due si scambiano una pre-master key che utilizzeranno per generare la master key 
+	- Con la master key e dopo essersi scambiati l'hash dell'handshake per conferma che non sia stato alterato possono iniziare a scambiarsi messaggi criptati
+- Con il TLS
+	- la confidenzialità è garantita perchè grazie a Diffie Hellman le chiavi vengono scambiate in modo sicuro
+	- l'integrità è garantita usando una funzione di hash, calcolando l'hash dei messaggi il destinatario può controllare che non sia stato alterato.
+---
+- Per privacy intendiamo il controllo delle proprie informazioni personali. Un altro modo per definire privacy è il suo obbiettivo principale: rendere difficile la correlazione tra dati.
+- Il linkage attack si basa sull'incrocio di più dataset per controllare quali dati sono simili. Ci si concentra in particolare sui quasi-identificatori. Un esempio sono CAP, sesso, data di nascita, con questi dati possiamo riuscire a risalire all'identità di una persona
+- Deve esistere un compromesso tra privacy e usabilità dei dati, questo perchè se rendiamo i dati completamente scollegati dall'identità di una persona dopo perdono la loro utilità. Allo stesso modo se i dati permettono di risalire all'identità della persona anche se diventano facilmente utilizzabili perdiamo la privacy.
+---
+- Cross-site scripting attack chiamato anche XSS consiste nello sfruttare delle funzionalità web per inserire del codice javascript all'interno di una pagina.  Per prevenire questo il server web deve filtrare i contenuti ricevuti nelle richieste accettando solo quelli che non hanno significato in html o javascript. 
+---
+#### Esercizio Lasthope
+- Per l'algoritmo di hash nel Local Device suggerisco di usare SHA-256 in quanto sono sono ritenuti sicuri, offrono un buon compromesso tra sicurezza e prestazioni. Secure Hash Algorithm 256 è un algoritmo che permette di cifrare un input di lunghezza variabile in un output di 256 bit.
+- Usare come salt lo username non è una buona strategia, il salt dovrebbe essere univoco per ogni utente. Solitamente si genera il salt casualmente per ogni utente. In questo modo siamo certi che l'hash digest sarà diverso per ogni utente
+- Consiglio una connessione TLS che permette di utilizzare un canale sicuro e cifrato. TLS solitamente utilizza Diffie Hellman per lo scambio di chiavi e poi si può usare un algoritmo di cifratura simmetrica come AES. Inoltre ad ogni sessione cambiamo la chiave in modo da evitare eventuali attacchi. Consiglio inoltre di tenere TLS aggiornato in quanto le versioni vecchie possono portare a delle vulnerabilità importanti le quali aumentano il rischio di una fuga di dati.
+- Per criptare le credenziali nel database suggerisco AES come algoritmo di cifratura. Advanced Encryption Standard è un algoritmo di cifratura simmetrica molto usato, utilizza blocchi variabili ed è un buon compromesso tra prestazioni e sicurezza
+---
+- **soggetto** è un'entità, un utente o un programma.
+- **richiesta** può essere accettata o rifiutata. Potrebbe richiedere la modifica la lettura la scrittura di una qualche risorsa.
+- **policy** le politiche di sicurezza. Sono le regole che specificano quali soggetti possono effettuare quale azione a quale risorsa.
+- **Guard** si occupa di accettare o rifiutare le richieste in base alle policy.
+- **Isolation Boundaries** sono dei confini, i confini possono avere delle policy che specificano che utenti possono accedervi ad esempio.
+- **Audit log** qui vengono scritti tutte le richieste passate
+- **Authentication** l'autenticazione è il processo di verificare l'identità di un soggetto
+- **Authorization** è il processo di verifica dei permessi. 
+---
+- **Confidenza** i dati devono essere condivisi solo da utenti autorizzati
+- **Integrità** i dati possono essere modificati o distrutti solo da utenti autorizzati
+- **Disponibilità** i dati  devono essere facilmente accessibili a chi è autorizzato, mentre chi non è autorizzato non deve poterci accedere
+---
+#### Esercizio BrokenWare
+- negli attacchi ransomware l'hacker cripta tutti i dati della vittima e chiede un riscatto. Spesso questi vengono fatti con degli algoritmi di cifratura forti come AES con 256 bit keys, per questo motivo anche con computer molto potenti il tempo richiesto per decriptare i dati non è ragionevole.(usando un attacco brute force con AES 256 richiederebbe milioni di anni)
+- per evitare questa situazione BrokenWare avrebbe dovuto:
+	- aggiornare frequentemente  i propri sistemi, è molto importante aggiornare i sistemi di sicurezza proprio per questi motivi, la tecnologia negli anni avanza inoltre potrebbero venir scoperte delle vulnerabilità come è successo con questo tool della BrokenWare.
+	- Applicare una infrastruttura Zero Trust, un'infrastruttura di questo permette agli utenti di effettuare solo le azioni strettamente necessarie. Questo avrebbe limitato se non evitato completamente la diffusione del ransomware.
+---
+- gli algoritmi di hashing sono degli algoritmi ad una direzione (One-way) che permettono di cifrare stringhe di una qualsiasi lunghezza in stringhe di lunghezza fissa le quali sembrano "casuali", una proprietà importante dell'hashing è il fatto che calcolare l'output di un hash (hash digest) è facile mentre il contrario è molto difficile. Un'altra proprietà importate è l'Avalanche Effect questo effetto riguarda il fatto che se due stringhe in input sono molto simili ma non uguali il loro output sarà completamente diverso.
+- Il salting consiste nell'aggiungere un valore pseudocasuale prima di calcolare l'hash, questo è un valore di 32-64 bytes di solito. Il salting permette di avere hash diversi anche se la password è la stessa, evitando quindi la vulnerabilità più grande dell'hashing.
+- L'hashing da solo non è sufficiente in quanto potrebbe venir compromesso con le Rainbow Table dei dizionari con molti valori e il loro hash digest, grazie a questi un attaccante può risalire alle password
+- La struttura di un password file contiene di solito un modo per identificare l'utente a cui è associata la password, l'hash della password e il salt.
+- Sarebbe buona pratica non salvare i salt in chiaro in quanto possono venir utilizzati in degli attacchi. E' molto importante mantenere la confidenzialità dei salt.
+---
+- SAML Security Assertion Markup Language è un linguaggio di markup utilizzato per implementare un sistema SSO(Single Sign On), un sistema che permette ad un utente di fare un login una sola volta per più servizi. Il sistema che autentica l'utente è Identity Provider (IdP) e il servizio è il Service Provider (SP).
+- Ci sono due scenari principali per la Web SSO 
+	- il primo modo è partendo dall'IdP, dopo aver fatto l'accesso all'IdP scegliamo il servizio che vogliamo usare quindi l'IdP fornisce la SAML assertion firmata garantendo l'identità dell'utente, in questo modo l'utente sarà autenticato presso l'SP.
+	- Il secondo modo è il più usato, quando l'utente parte dall'SP dato che non è ancora autenticato viene reindirizzato all'IdP dove farà il login, dopo aver fatto il login l'Idp firmerà l'assertion e la invierà al SP
+- Il modo migliore per garantire fiducia nelle assertions è l'utilizzo di firme digitali che ci assicurano l'autenticità dei messaggi
+- Per evitare attacchi MITM  si usa TLS
+---
+- L'obbiettivo delle funzioni di pseudo-anonimizzazione è evitare di usare un identificatore che potrebbe compromettere la privacy di un soggetto, questo viene fatto associando più pseudonimi ad un identificatore i quali possono sempre essere convertiti all'identificatore.
+- Questo può essere implementato con un contatore, è una soluzione semplice ma può richiedere spazio perchè serve una tabella per associare identificatore e pseudonimo, inoltre un contatore sequenziale potrebbe dare delle informazioni sull'ordine dei dati.
+- Un'altra implementazione è con un generatore pseudo casuale, simile al precedente ma senza il problema dell'ordine dei dati, può avere problemi di collisione.
+- Un'altra implementazione è con hash function, viene calcolato l'hash dell'identificatore, questo ha il problema del dizionario per associare id e anche il problema di brute force attack
+- un'altra implementazione è con algoritmi di crittografia simmetrici a blocchi di cifratura come AES
+---
+- il confused deputy è un problema che riguarda un soggetto che ha il permesso di eseguire un operazione e un attaccante che non ha i permessi di eseguire questa operazione. L'attaccante manipola l'utente nell'eseguire l'operazione. 
+- Le capabilities evitano il problema del confused deputy perchè i permessi sono associati ai soggetti non alle risorse. In questa situazione il soggetto con i permessi capisce che l'attaccante non ha i permessi per effettuare quell'operazione e non la esegue.
+- DAC il Discretionary Access Control è un sistema di permessi in cui il proprietario della risorsa decide quali utenti possono effettuare quali operazioni
+- il MAC Mandatory access control è un sistema di permessi in cui gli utenti sono divisi in diversi livelli di autorità e a seconda del livello di autorità di un utente può effettuare o meno una certa azione sulla risorsa
+- Il DAC è un sistema molto flessibile ma più difficile da gestire, MAC invece è molto rigido più facile da gestire. Un esempio in cui il MAC può funzionare è ad esempio la gerarchia militare, un esempio per il DAC è la gestione aziendale 
+---
+- La k-anonymity è un metodo per proteggere la privacy, il concetto è che ogni riga di un db deve essere indistinguibile da k-1 righe. K è il numero di record in cui i quasi identificatori si ripetono, ripetendosi non possiamo distinguere l'identità di un soggetto. La k-anonymity la possiamo ottenere con due metodi
+	- generalizzazione possiamo generalizzare i campi in dei range ad esempio 
+	- soppressione possiamo rimuovere dei campi
+- La k anoniminità soffre del compromesso tra usabilità e privacy
+- Grazie alla k anonymity possiamo evitare il linkage attack, anche se proviamo ad incrociare i dati per risalire all'identità di un utente non arriviamo mai a filtrarne uno solo
+---
+- In un  attacco SQL-injection  l'attaccante riesce ad inserire del codice SQL in una richiesta che poi finisce in una query, il codice SQL potrebbe riuscire a commentare pezzi di query oppure a terminare uno statement per poi iniziarne un altro, potrebbe anche cancellare il database. Per evitare questo attacco prima di effettuare una query con un parametro passato dall'utente bisogna "sanificare" il parametro, la sanificazione di un parametro è la rimozione di caratteri che sono significativi per una query. un'altro modo è il principio del least privilege, l'utente che esegue la query dovrebbe avere solo i permessi necessari, in questo modo non dovrebbe avere i permessi per eliminare l'intero db per esempio.
+---
+- I security levels (S) sono definiti come una lista ordinata come: Top secret > secret > confidential. Sono definiti in modo tale che un soggetto possa interagire con risorse solo quando il suo livello lo permette.
+- need-to-know (N), oltre ai security level definiamo delle categorie diverse in modo da suddividere gli utenti per cosa è necessario che sappiano. Il concetto di need-to-know implementa il principio di least privilege. Esempio: un esempio di categorie sono Criptografia Privacy e Farmaci. Un soggetto può ad esempio avere accesso a Criptografia ma non a Farmaci.
+- La relazione di dominanza permette di capire se un soggetto ha i permessi per interagire con una risorsa.
+  Ogni soggetto ha una clearance la quale è determinata con i suoi need-to-know e il suo security level esempio: `C = {secret, {Criptografia, Privacy}}` questa domina `{confidential, {Criptografia}}` ma non domina `{top secret, {Farmaci}}` 
+  - La no read up rule è una regola che vieta la lettura di una risorsa ad utenti con permessi più bassi della risorsa. Garantisce confidenzialità.
+  - la no write down rule è una regola che non permette di scrivere in risorse con livello più basso rispetto al soggetto. Questo garantisce confidenzialità in quanto può essere che un soggetto scriva dei file Top secret in risorse con permessi confidenziali
+---
+- L'articolo 35 del GDPR, General Data Protection Regulation dice che quando viene utilizzata una tecnologia che raccoglie dati personali, biometrici in automatico bisogna effettuare un Data Protection Impact Assessment DPIA, queto significa verificare quali dati si possono evitare di raccogliere, quali sono i rischi, se tratteniamo dei dati molto sensibili è importate usare delle tecnologie all'avanguardia per la protezione dei dati.
+---
+- RBAC Role based access control è un sistema di accessi basato sui ruoli, in questo sistema ogni soggetto ha dei ruoli e ogni risorsa può essere usata solo da chi ha certi ruoli. Questo sistema è molto semplice e funzionale ma è facile che i ruoli aumentino esponenzialmente, per questo è stato inventato il ABAC.
+- Attributes based access control questo sistema accetta o rifiuta una richiesta a seconda degli attributi non dei ruoli, il ruolo diventa uno degli attributi. Un esempio è che una risorsa può essere letta solo in una fascia di orario e solo da un ufficio. Questo diventerebbe molto complesso da gestire con RBAC mentre con ABAC è normale. 
+	- Nell'ABAC la richiesta viene fatta con XACML 
+	- il PDP policy decision point decide in base alle varie policy se la richiesta va accettata o rifiutata.
+	- il PEP policy enforcement point esegue la richiesta accettata dal PDP 
+
+
+---

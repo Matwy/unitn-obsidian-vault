@@ -1,7 +1,8 @@
 ---
 date: <% tp.date.now("YYYY/MM/DD") %>
-tags: 
+tags:
 Materia:
+pdf:
 ---
 <%* 
 let title=tp.file.title

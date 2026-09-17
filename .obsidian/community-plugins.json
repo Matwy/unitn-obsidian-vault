@@ -11,11 +11,11 @@
   "table-editor-obsidian",
   "obsidian-icon-folder",
   "obsidian-mind-map",
-  "google-calendar",
   "omnisearch",
   "obsidian-image-toolkit",
   "quick-latex",
   "obsidian-tasks-plugin",
   "obsidian-pandoc",
-  "obsidian-annotator"
+  "image-converter",
+  "better-export-pdf"
 ]

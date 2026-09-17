@@ -74,7 +74,7 @@
       "query": "path:\"Basi di dati\"  ",
       "color": {
         "a": 1,
-        "rgb": 16731392
+        "rgb": 9719552
       }
     },
     {
@@ -90,6 +90,34 @@
         "a": 1,
         "rgb": 22282
       }
+    },
+    {
+      "query": "path:computerNetworkSecurity  ",
+      "color": {
+        "a": 1,
+        "rgb": 13989576
+      }
+    },
+    {
+      "query": "path:Fisica  ",
+      "color": {
+        "a": 1,
+        "rgb": 13107455
+      }
+    },
+    {
+      "query": "path:\"Logica Computazionale\"  ",
+      "color": {
+        "a": 1,
+        "rgb": 6883079
+      }
+    },
+    {
+      "query": "path:\"Secondo Anno/sistemi operativi\"  ",
+      "color": {
+        "a": 1,
+        "rgb": 5178961
+      }
     }
   ],
   "collapse-display": true,
@@ -97,11 +125,11 @@
   "textFadeMultiplier": -0.4,
   "nodeSizeMultiplier": 1.0953125,
   "lineSizeMultiplier": 0.957090909090909,
-  "collapse-forces": false,
+  "collapse-forces": true,
   "centerStrength": 0.802077922077922,
   "repelStrength": 15.9450834879406,
   "linkStrength": 1,
   "linkDistance": 184,
-  "scale": 0.0831742783592768,
+  "scale": 0.07540479541853894,
   "close": true
 }

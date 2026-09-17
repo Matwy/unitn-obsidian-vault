@@ -1,0 +1,14 @@
+	bison -d calc2.y
+	flex calc2.l
+	gcc -c calc2.tab.c lex.yy.c
+	gcc calc2.tab.o lex.yy.o -o calc2.exe
+
+
+$./calc2
+5+6*9
+59
+x=3+2
+y=1
+x+y
+6
+ctrl-d

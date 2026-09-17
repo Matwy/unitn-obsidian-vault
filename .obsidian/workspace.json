@@ -4,49 +4,22 @@
     "type": "split",
     "children": [
       {
-        "id": "bb4eb7655016ccf4",
+        "id": "8311413c30810b10",
         "type": "tabs",
         "children": [
           {
-            "id": "e973e6bfcc8cf7d3",
+            "id": "279e900b3baf2647",
             "type": "leaf",
             "state": {
               "type": "pdf",
               "state": {
-                "file": "computerNetworkSecurity/files/3-Crypto_Intro-2p.pdf"
+                "file": "Machine Learning/slide/Lec16 - Diffusion Models.pdf"
               },
               "icon": "lucide-file-text",
-              "title": "3-Crypto_Intro-2p"
-            }
-          },
-          {
-            "id": "1e2eaf74d25ce835",
-            "type": "leaf",
-            "state": {
-              "type": "pdf-annotator",
-              "state": {
-                "file": "computerNetworkSecurity/annotator.md"
-              },
-              "icon": "lucide-file",
-              "title": "annotator"
-            }
-          },
-          {
-            "id": "e5c65ad5ebc48b00",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "computerNetworkSecurity/01 basic notions.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "01 basic notions"
+              "title": "Lec16 - Diffusion Models"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -69,7 +42,7 @@
                 "autoReveal": false
               },
               "icon": "lucide-folder-closed",
-              "title": "Files"
+              "title": "Esplora risorse"
             }
           },
           {
@@ -103,8 +76,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 246,
-    "collapsed": true
+    "width": 290.5026054382324
   },
   "right": {
     "id": "343aed3ed67e75fe",
@@ -113,7 +85,7 @@
       {
         "id": "5b6acb33249dd028",
         "type": "tabs",
-        "dimension": 58.83424408014573,
+        "dimension": 54.94186046511628,
         "children": [
           {
             "id": "97eba380b4830006",
@@ -153,10 +125,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Algoritmi e strutture dati/Grafi.md"
+                "file": "Algoritmi e strutture dati/files/seconda parte/15-local.pdf",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Grafi"
+              "title": "Outline of 15-local"
             }
           },
           {
@@ -182,46 +157,6 @@
               "icon": "links-going-out",
               "title": "Outgoing links from Grafi"
             }
-          },
-          {
-            "id": "76eea5ee731af447",
-            "type": "leaf",
-            "state": {
-              "type": "chronology-calendar-view",
-              "state": {},
-              "icon": "clock",
-              "title": "Chronology"
-            }
-          },
-          {
-            "id": "363a33d90aa719ff",
-            "type": "leaf",
-            "state": {
-              "type": "chronology-calendar-view",
-              "state": {},
-              "icon": "clock",
-              "title": "Chronology"
-            }
-          },
-          {
-            "id": "7b444ce3302daec2",
-            "type": "leaf",
-            "state": {
-              "type": "chronology-calendar-view",
-              "state": {},
-              "icon": "clock",
-              "title": "Chronology"
-            }
-          },
-          {
-            "id": "fd05ae335bbd2864",
-            "type": "leaf",
-            "state": {
-              "type": "chronology-calendar-view",
-              "state": {},
-              "icon": "clock",
-              "title": "Chronology"
-            }
           }
         ],
         "currentTab": 3
@@ -229,7 +164,7 @@
       {
         "id": "8c5d0feee6612537",
         "type": "tabs",
-        "dimension": 41.16575591985427,
+        "dimension": 45.05813953488372,
         "children": [
           {
             "id": "4fa20398feab46e3",
@@ -238,24 +173,25 @@
               "type": "graph",
               "state": {},
               "icon": "lucide-git-fork",
-              "title": "Graph view"
+              "title": "Vista grafo"
             }
           }
         ]
       }
     ],
     "direction": "horizontal",
-    "width": 370,
+    "width": 304,
     "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
-      "switcher:Open quick switcher": false,
-      "canvas:Create new canvas": false,
-      "graph:Open graph view": false,
-      "templates:Insert template": false,
-      "command-palette:Open command palette": false,
-      "daily-notes:Open today's daily note": false,
+      "switcher:Apri selezione rapida": false,
+      "graph:Apri vista grafo": false,
+      "canvas:Crea nuova lavagna": false,
+      "daily-notes:Apri nota del giorno": false,
+      "templates:Inserisci modello": false,
+      "command-palette:Apri riquadro comandi": false,
+      "bases:Crea nuova Base": false,
       "syncthing-integration:Open Syncthing conflict manager modal": false,
       "templater-obsidian:Templater": false,
       "obsidian-projects:Open projects": false,
@@ -264,53 +200,54 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "1e2eaf74d25ce835",
+  "active": "279e900b3baf2647",
   "lastOpenFiles": [
-    "computerNetworkSecurity/files/3-Crypto_Intro-2p.pdf",
-    "computerNetworkSecurity/files/Appunti-Facchini-Ranise-2024-25.pdf",
-    "annotator.md",
-    "computerNetworkSecurity/annotator.md",
-    "computerNetworkSecurity/files/2-AuthN-I-2p.pdf",
-    "computerNetworkSecurity/01 basic notions.md",
-    "computerNetworkSecurity/2 Auth.md",
-    "images/Pasted image 20250125170059.png",
-    "images/Pasted image 20250215110052.png",
-    "images/Pasted image 20250215105025.png",
-    "computerNetworkSecurity/files/1-BasicNotions-2p.pdf",
-    "computerNetworkSecurity/computer-network-security.md",
-    "computerNetworkSecurity/files",
-    "computerNetworkSecurity",
-    "talos.md",
-    "Algoritmi e strutture dati/Esercizio 1 esame.md",
-    "Algoritmi e strutture dati/files/05-alberi.pdf",
-    "Algoritmi e strutture dati/files/06-abr.pdf",
-    "Algoritmi e strutture dati/Hashing.md",
-    "Primo Anno/Funzionale/2 Names and Environments.md",
-    "Primo Anno/Funzionale.zip",
-    "Primo Anno/Funzionale/Tipi base SML.md",
-    "Primo Anno/Funzionale/Programmazione funzionale.md",
-    "Primo Anno/Funzionale/Liste.md",
-    "Primo Anno/Funzionale/Lambda calculus.md",
-    "Primo Anno/Funzionale/Higher Order Function.md",
-    "Primo Anno/Funzionale/Funzioni.md",
-    "Primo Anno/Funzionale/Flusso.md",
-    "Primo Anno/Funzionale/Conversioni.md",
-    "Primo Anno/Funzionale/Caratteristiche linguaggi.md",
-    "Primo Anno/Funzionale/3 Memory management.md",
-    "Primo Anno/Funzionale/5 Data Structure.md",
-    "Primo Anno/Funzionale/6 Logic Programming.md",
-    "Primo Anno/Funzionale/4 Control Structures and abstraction.md",
-    "Algoritmi e strutture dati/files/02-funzioni.pdf",
-    "Reti/cap 6/accesso multiplo al canale.md",
-    "Reti/cap 4-5/Autonomous System.md",
-    "Reti/Reti.md",
-    "images/Pasted image 20250108094819.png",
-    "images/Pasted image 20250108085956.png",
-    "images/Pasted image 20250108091039.png",
-    "images/Pasted image 20250108090346.png",
-    "images/Pasted image 20240227100659.png",
-    "images/Pasted image 20240229092531.png",
-    "images/Pasted image 20240324105303.png",
+    "Machine Learning/Lec7-GradientDescent.pdf",
+    "Machine Learning/Lec13-Intro2NN.pdf",
+    "Machine Learning/appunti/pseudocodice/16 Diffusion Models - Pseudocodice.md",
+    "Machine Learning/appunti/pseudocodice/10 Regularization - Pseudocodice.md",
+    "Machine Learning/appunti/pseudocodice/11 Unsupervised Learning - Pseudocodice.md",
+    "Machine Learning/appunti/pseudocodice/15 Modelli Generativi - Pseudocodice.md",
+    "Machine Learning/appunti/pseudocodice/14 Reti Neurali II - Ottimizzazione e CNN - Pseudocodice.md",
+    "Machine Learning/appunti/pseudocodice/12 Clustering - Pseudocodice.md",
+    "Machine Learning/appunti/pseudocodice/7 Gradient Descent - Pseudocodice.md",
+    "Machine Learning/appunti/pseudocodice/Ensemble Learning - Pseudocodice.md",
+    "Machine Learning/appunti/pseudocodice/13 Introduzione alle Reti Neurali - Pseudocodice.md",
+    "Machine Learning/appunti/pseudocodice/9 SVM - Pseudocodice.md",
+    "Machine Learning/appunti/pseudocodice/6 Multi-class Classification - Pseudocodice.md",
+    "Machine Learning/appunti/pseudocodice/6 Decision Trees - Pseudocodice.md",
+    "Machine Learning/appunti/pseudocodice/5 Perceptron - Pseudocodice.md",
+    "Machine Learning/appunti/pseudocodice/4 KNN - Pseudocodice.md",
+    "Machine Learning/appunti/pseudocodice",
+    "Machine Learning/appunti/Conditional VAE - training.svg",
+    "Machine Learning/appunti/Conditional VAE - training.png",
+    "Machine Learning/appunti/Ensemble Learning.md",
+    "Machine Learning/appunti/9 SVM.md",
+    "Machine Learning/appunti/7 Gradient Descent.md",
+    "Machine Learning/appunti/6 Multi-class Classification.md",
+    "Machine Learning/appunti/6 Decision Trees.md",
+    "Machine Learning/appunti/5 Perceptron.md",
+    "Machine Learning/appunti/4 KNN.md",
+    "Machine Learning/appunti/3 MLBasics.md",
+    "Machine Learning/appunti/2 MLBasics.md",
+    "Machine Learning/appunti/16 Diffusion Models.md",
+    "Machine Learning/appunti/15 Modelli Generativi.md",
+    "Machine Learning/slide/Lec9-SVM.pdf",
+    "Machine Learning/slide/Lec7-GradientDescent.pdf",
+    "Machine Learning/slide/Lec6-Multi-class Classification.pdf",
+    "Machine Learning/slide/Lec6 - Decision_Trees.pdf",
+    "Machine Learning/slide/Lec5-Perceptron.pdf",
+    "Machine Learning/slide/Lec4-KNN.pdf",
+    "Machine Learning/slide/Lec3-MLBasics.pdf",
+    "Machine Learning/slide/Lec2-MLBasics.pdf",
+    "Machine Learning/Conditional VAE - training.svg",
+    "Machine Learning/Conditional VAE - training.png",
+    "Machine Learning/_dg_34.png",
+    "Machine Learning/_dg_33.png",
+    "Machine Learning/_dg_32.png",
+    "Machine Learning/_dg_31.png",
+    "Machine Learning/_dif_51.png",
+    "Machine Learning/_dif_50.png",
     "Primo Anno/Joey/joey.canvas",
     "Untitled.canvas"
   ]

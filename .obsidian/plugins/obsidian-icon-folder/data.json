@@ -32,7 +32,6 @@
   "Programmazione 2": "FabJava",
   "Programmazione funzionale": "TiFunction",
   "images": "LiImages",
-  "Terzo Semestre.md": "Fas3",
   "Primo Anno/probabilitàStatistica": "LiPercent",
   "Primo Anno/Geometria e Algebra lineare": "SiMatrix",
   "Primo Anno/Funzionale": "TiFunction",
@@ -48,5 +47,6 @@
   "Primo Anno/Calcolatori/RISC V.md": "SiRiscv",
   "Primo Anno/Programmazione2": "FabJava",
   "Primo Anno/Primo Semestre.md": "Fas1",
-  "Primo Anno/Secondo Semestre.md": "Fas2"
+  "Primo Anno/Secondo Semestre.md": "Fas2",
+  "Secondo Anno/Terzo Semestre.md": "Fas3"
 }
